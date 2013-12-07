@@ -1,3 +1,3 @@
 require 'rspec'
 require_relative '../lib/shape'
-require_relative '../lib/square'
+require_relative '../lib/trapezoid'
