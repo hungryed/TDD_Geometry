@@ -11,5 +11,4 @@ class Square < Shape
   def area
     @side * @side
   end
-
 end

@@ -15,5 +15,4 @@ class Circle < Shape
   def diameter
     (@radius * 2).round(1)
   end
-
 end
