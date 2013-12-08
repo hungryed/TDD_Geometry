@@ -1,14 +1,14 @@
 class Square < Shape
 
-  def initialize(side)
-    @side = side
+  def initialize(side1)
+    super(side1)
   end
 
   def perimeter
-    @side * 4
+    @side1 * 4
   end
 
   def area
-    @side * @side
+    @side1 * @side1
   end
 end

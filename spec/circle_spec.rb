@@ -17,4 +17,10 @@ describe Circle do
   it 'calculates the circumferance' do
     expect(circle.circumferance).to eql(25.1)
   end
+
+  let(:bad_circle){ Circle.new(-1.0)}
+
+  it 'does not allow for negative numbers' do
+    expect{bad_circle.area}.to raise_error
+  end
 end

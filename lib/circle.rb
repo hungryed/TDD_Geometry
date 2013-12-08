@@ -1,6 +1,7 @@
 class Circle < Shape
 
   def initialize(radius)
+    super(radius)
     @radius = radius
   end
 

@@ -13,4 +13,10 @@ describe Rectangle do
   it 'calculates the area' do
     expect(rectangle.area).to eql(40.0)
   end
+
+  let(:bad_rectangle){ Rectangle.new(4.0, -1.0)}
+
+  it 'does not allow for negative numbers' do
+    expect{bad_rectangle.area}.to raise_error
+  end
 end
